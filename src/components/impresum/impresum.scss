@@ -1,0 +1,52 @@
+.impresum-div {
+  height: auto;
+  background-color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  .impresum-wrapper {
+    padding: 50px 30px 50px 30px;
+    .impresum-first-text {
+      .impresum-title {
+        text-align: center;
+        margin: 0 0 40px 0;
+        h4 {
+          color: #242424;
+          font-size: 46px;
+        }
+      }
+
+      .impresum-par {
+        margin: 0 0 30px 0;
+        p {
+          font-size: 14px;
+          color: #777777;
+        }
+      }
+    }
+
+    .impresum-gallery {
+      margin: 0 0 30px 0;
+      img {
+        margin: 1px;
+        cursor: pointer;
+      }
+    }
+    .impresum-second-text {
+      color: #777777;
+      font-size: 14px;
+    }
+  }
+}
+
+.styles-module_wrapper__1I_qj {
+  z-index: 700;
+}
+
+#ReactSimpleImageViewer {
+  z-index: 900;
+}
+
+@media screen and (max-width: 1024px) {
+  .impresum-title h4 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,122 @@
+.comics-group-nav {
+  min-height: 400px;
+  background-color: #ffffff;
+  padding: 1px 2rem 20px 2rem;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  .comics-list-wrapper {
+    margin: 29px 0 10px 0;
+
+    .comics-list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 3rem;
+      .li-comics {
+        list-style: none;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        padding: 0 1rem 0 0;
+        flex-shrink: 0;
+        a {
+          text-decoration: none;
+          color: #a0a0a0;
+          font-size: 17px;
+          &:hover {
+            color: #333;
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+  }
+  .pic-holder {
+    min-height: 365px;
+    .pic {
+      text-align: center;
+      img {
+        width: 100%;
+      }
+      h3 {
+        line-height: 0.7;
+        text-align: center;
+      }
+
+      .novo-text {
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: #333;
+        transition: 0.2s;
+        &:hover {
+          color: #a0a0a0;
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+}
+/***************************  HOVER ANIMATED UNDERLINE ******************************************/
+.comics-under {
+  position: relative;
+}
+
+.comics-under:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #f58634;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.comics-under:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.comics-under-active:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #f58634;
+}
+
+.comics-under-active {
+  position: relative;
+  color: #333 !important;
+}
+/************************************REASPONISIVE*****************************************/
+
+@media screen and (max-width: 1199px) {
+  .comics-group-nav {
+    min-height: 850px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .comics-list-wrapper {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .comics-list {
+    width: 814px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .comics-group-nav {
+    height: auto;
+  }
+
+  .pic-holder {
+    min-height: 720px;
+  }
+}

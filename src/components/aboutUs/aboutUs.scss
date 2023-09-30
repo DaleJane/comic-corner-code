@@ -1,0 +1,511 @@
+.onama-holder {
+  font-family: "Raleway", sans-serif;
+  .onama-naslovna-div {
+    width: 100%;
+    background-image: url("../../assets/onama/onama5.jpg");
+    padding: 0 45px 0 45px;
+    text-align: left;
+
+    .naslovna-div-content {
+      padding: 6vh 0 20vh 0;
+      h5 {
+        font-size: 16px;
+        color: #000000cc;
+        line-height: 1.5;
+      }
+      h4 {
+        color: #242424;
+        font-size: 46px;
+      }
+
+      h5 {
+        color: #777777;
+      }
+    }
+  }
+  div {
+    .onama-main {
+      padding: 8vh 0 0 0;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      h4 {
+        color: #242424;
+        font-size: 46px;
+      }
+      .onama-main-central {
+        width: 59%;
+        color: #777777;
+
+        em {
+          font-size: 22px;
+          margin: 0 0 20px 0;
+        }
+
+        span {
+          font-size: 22px;
+        }
+
+        .onama-text-pic {
+          display: flex;
+          padding: 0 0 10px 0;
+          margin: 20px 0 0 0;
+          .onama-text {
+            padding: 0 15px 0 0;
+            width: 50%;
+            font-size: 14px;
+            em {
+              width: 50%;
+              font-size: 14px;
+            }
+          }
+          .onama-pic {
+            width: 50%;
+            padding: 0 0 0 15px;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+      .separator {
+        padding: 0 0 30px 0;
+        width: 100%;
+        height: 20px;
+        border-top: 2px solid #0a0a0a1f;
+      }
+    }
+
+    .black-and-white-div {
+      height: auto;
+      background-color: #ffffff;
+      padding: 0 0 30px 0;
+
+      display: flex;
+      justify-content: center;
+
+      .black-and-white-pic {
+        width: 95%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .staro-novo {
+      background-color: #ffffff;
+      padding: 45px 0 0 0;
+      .staro-novo-naslov {
+        text-align: center;
+        margin: 0 0 20px 0;
+        h4 {
+          color: #242424;
+          font-size: 46px;
+        }
+      }
+      .staro-novo-text {
+        display: flex;
+        justify-content: center;
+        .staro-novo-paragraf {
+          width: 50%;
+          margin: 0 0 30px 0;
+
+          p,
+          em {
+            font-size: 14px;
+            color: #777777;
+          }
+        }
+      }
+
+      .vc-staro-video {
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        background-color: #ffffff;
+        padding: 0 30px 100px 30px;
+      }
+    }
+
+    .najpopularnije {
+      background-color: #111111;
+      padding: 45px 0 0 0;
+      .najpopularnije-naslov {
+        text-align: center;
+        margin: 0 0 20px 0;
+        color: #ffffff;
+        h4 {
+          color: #ffffff;
+          font-size: 46px;
+        }
+      }
+
+      .najpopularnije-text {
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        .najpopularnije-paragraf {
+          width: 50%;
+          margin: 0 0 30px 0;
+          p,
+          em {
+            font-size: 14px;
+            color: #ffffff;
+          }
+        }
+      }
+      .vc-najpopularnije-video {
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        background-color: #111111;
+        padding: 0 30px 100px 30px;
+      }
+    }
+
+    .gde-naci {
+      background-color: #ffffff;
+      padding: 45px 0 70px 0;
+      .gde-naci-naslov {
+        text-align: center;
+        margin: 0 0 20px 0;
+        h4 {
+          color: #242424;
+          font-size: 46px;
+        }
+      }
+
+      .gde-naci-text {
+        display: flex;
+        justify-content: center;
+        color: #777777;
+
+        .gde-naci-paragraf {
+          width: 50%;
+          margin: 0 0 30px 0;
+          p
+          //em
+          {
+            font-size: 14px;
+            color: #777777;
+          }
+        }
+      }
+
+      .gde-naci-logo-holder {
+        .comic-store-img {
+          text-align: center;
+          margin: 0 0 40px 0;
+        }
+
+        .comic-store-img-title {
+          text-align: center;
+          margin: 0 0 50px 0;
+          font-size: 14px;
+          color: #777777;
+        }
+      }
+
+      .comics-location {
+        margin: 0 auto;
+
+        .comics-shop {
+          text-align: center;
+          a {
+            color: #777777;
+            text-decoration: none;
+            transition: 0.3s;
+            &:visited {
+              color: #777777;
+              text-decoration: none;
+            }
+            &:hover {
+              color: #444444;
+              text-decoration: none;
+              transition: 0.3s;
+            }
+          }
+        }
+
+        .comics-place {
+          text-align: center;
+          font-size: 14px;
+        }
+      }
+
+      .comics-location2 {
+        margin: 0 auto;
+
+        .comics-shop {
+          text-align: center;
+          a {
+            color: #777777;
+            text-decoration: none;
+            transition: 0.3s;
+            &:visited {
+              color: #777777;
+              text-decoration: none;
+            }
+            &:hover {
+              color: #444444;
+              text-decoration: none;
+              transition: 0.3s;
+            }
+          }
+        }
+
+        .comics-place {
+          text-align: center;
+          font-size: 14px;
+        }
+      }
+
+      .kuda-dalje {
+        .kuda-dalje-naslov {
+          text-align: center;
+          margin: 0 0 20px 0;
+          h4 {
+            color: #242424;
+            font-size: 46px;
+          }
+        }
+        .kuda-dalje-text {
+          display: flex;
+          justify-content: center;
+          color: #777777;
+          .kuda-dalje-paragraf {
+            width: 50%;
+            margin: 0 0 30px 0;
+            p,
+            em {
+              font-size: 14px;
+              color: #777777;
+            }
+          }
+        }
+
+        .kuda-dalje-pic-div {
+          .kuda-dalje-pic {
+            text-align: center;
+            width: 90%;
+            margin: 0 auto;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+iframe {
+  max-width: 550px;
+  max-height: 310px;
+}
+
+/************************************************************************************************************/
+@media screen and (max-width: 575px) {
+  .onama-holder {
+    h4 {
+      font-size: 24px;
+    }
+    .onama-naslovna-div {
+      background-repeat: no-repeat;
+      padding-bottom: 50px;
+      h5 {
+        font-size: 16px;
+      }
+
+      .naslovna-div-content {
+        padding-bottom: 0;
+        h5 {
+          margin: 0;
+        }
+      }
+    }
+    div {
+      .onama-main {
+        .onama-main-central {
+          width: 100%;
+          padding: 0 15px 0 15px;
+          h4 {
+            font-size: 20px;
+          }
+          .onama-text-pic {
+            flex-direction: column;
+            .onama-text,
+            .onama-pic {
+              width: 100%;
+              padding: 0;
+            }
+          }
+        }
+      }
+
+      .staro-novo {
+        .vc-staro-video {
+          flex-direction: column;
+          .staro-video-first {
+            margin-bottom: 50px;
+          }
+        }
+      }
+
+      .najpopularnije {
+        .vc-najpopularnije-video {
+          flex-direction: column;
+
+          .staro-video-first {
+            margin-bottom: 50px;
+          }
+        }
+      }
+
+      .gde-naci {
+        .comics-location {
+          margin: 0;
+          .loc {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/******************************************************************************************************************/
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .onama-holder {
+    h4 {
+      font-size: 24px;
+    }
+    .onama-naslovna-div {
+      background-repeat: no-repeat;
+      padding-bottom: 50px;
+      h5 {
+        font-size: 16px;
+      }
+
+      .naslovna-div-content {
+        padding-bottom: 0;
+        h5 {
+          margin: 0;
+        }
+      }
+    }
+    div {
+      .onama-main {
+        .onama-main-central {
+          width: 100%;
+          padding: 0 15px 0 15px;
+          h4 {
+            font-size: 20px;
+          }
+          .onama-text-pic {
+            flex-direction: column;
+            .onama-text {
+              width: 100%;
+              text-align: left;
+              padding: 0;
+              padding-bottom: 20px;
+            }
+
+            .onama-pic {
+              width: 100%;
+              text-align: center;
+              padding: 0;
+              padding-bottom: 20px;
+              img {
+                width: 75%;
+              }
+            }
+          }
+        }
+      }
+      .staro-novo {
+        .vc-staro-video {
+          flex-direction: column;
+          .staro-video-first {
+            margin-bottom: 50px;
+          }
+        }
+      }
+
+      .najpopularnije {
+        .vc-najpopularnije-video {
+          flex-direction: column;
+
+          .staro-video-first {
+            margin-bottom: 50px;
+          }
+        }
+      }
+
+      .gde-naci {
+        .comics-location {
+          margin: 0 auto;
+          .loc {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/**************************************************************************************************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .onama-holder {
+    div {
+      .onama-main {
+        .onama-main-central {
+          width: 100%;
+          padding: 0 15px 0 15px;
+          h4 {
+            font-size: 20px;
+          }
+          .onama-main-central div h4 {
+            font-size: 22px;
+          }
+          .onama-text-pic {
+            flex-direction: row;
+            padding: 0 0 20px 0;
+            .onama-text {
+              text-align: left;
+            }
+
+            .onama-pic {
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+
+      .staro-novo {
+        .staro-novo-naslov h4 {
+          font-size: 24px;
+        }
+      }
+
+      .gde-naci {
+        .comics-location {
+          margin: 0 auto;
+        }
+
+        .comics-location2 {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .onama-holder .onama-naslovna-div .naslovna-div-content h4 {
+    font-size: 25px;
+  }
+}

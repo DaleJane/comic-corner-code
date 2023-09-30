@@ -1,0 +1,190 @@
+@import "../../styleBase/styleBase.scss";
+
+.black-header {
+  height: 45px;
+  background-color: $clean-black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  font-size: 14px;
+  font-weight: 700;
+
+  .info {
+    // display: flex;
+    align-items: center;
+
+    .no-click {
+      pointer-events: none;
+      user-select: none;
+      color: $light-gray;
+      padding: 0 6px 0 6px;
+    }
+
+    .line {
+      color: $clean-white;
+      user-select: none;
+      &::before {
+        content: "";
+        display: block;
+        height: 18px;
+        border-right: 1px solid;
+      }
+    }
+
+    .black-header-link {
+      padding: 0 6px 0 6px;
+      a {
+        color: $light-gray;
+        text-decoration: none;
+        transition: 0.3s;
+
+        &:hover {
+          transition: 0.3s;
+          color: $clean-white;
+        }
+        &:active {
+          color: $light-gray;
+        }
+      }
+    }
+  }
+
+  .info-detail {
+    .social-networks {
+      a {
+        color: $clean-white;
+        font-size: 1rem;
+        padding: 0 6px 0 6px;
+        transition: 0.3s;
+
+        &:hover {
+          color: $light-gray;
+          transition: 0.3s;
+        }
+      }
+    }
+
+    .impresum {
+      a {
+        text-decoration: none;
+        color: $clean-white;
+        padding: 0 6px 0 6px;
+        transition: 0.3s;
+
+        &:hover {
+          color: $light-gray;
+          transition: 0.3s;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+////////////////////////////////    header mobile start         ////////////////////////////
+
+.mobile-new-holder {
+  width: 100%;
+  justify-content: space-between;
+
+  .mobile-social-networks {
+    a {
+      color: $clean-white;
+      font-size: 1rem;
+      padding: 0 6px 0 6px;
+      transition: 0.3s;
+
+      &:hover {
+        color: $light-gray;
+        transition: 0.3s;
+      }
+    }
+
+    .club {
+      align-items: center;
+      .no-click {
+        pointer-events: none;
+        user-select: none;
+        color: $light-gray;
+        padding: 0 6px 0 6px;
+      }
+
+      .line {
+        color: $clean-white;
+        user-select: none;
+        &::before {
+          content: "";
+          display: block;
+          height: 18px;
+          border-right: 1px solid;
+        }
+      }
+    }
+  }
+
+  .message {
+    align-items: center;
+    .line {
+      color: $clean-white;
+      user-select: none;
+      &::before {
+        content: "";
+        display: block;
+        height: 18px;
+        border-right: 1px solid;
+      }
+    }
+
+    .mail {
+      width: 8rem;
+      text-align: center;
+      a {
+        color: $light-gray;
+        padding: 0 0 0 6px;
+        transition: 0.4s;
+        &:hover {
+          color: $clean-white;
+          transition: 0.4s;
+        }
+      }
+    }
+  }
+}
+// /*************************FOR SCREEN WIDTH SMALLER THAN 576PX************************/
+
+@media screen and (max-width: 576px) {
+  .black-header {
+    padding: 0 1.5rem;
+    .info-detail {
+      display: none;
+    }
+
+    .info {
+      display: none;
+    }
+
+    .mobile-new-holder {
+      display: flex;
+      justify-content: space-between;
+      .mobile-social-networks {
+        display: flex;
+        align-items: center;
+        a {
+          font-size: 12px;
+        }
+        .club {
+          display: flex;
+          font-size: 12px;
+        }
+      }
+      .message {
+        display: flex;
+        .mail {
+          width: 3rem;
+          text-align: right;
+        }
+      }
+    }
+  }
+}

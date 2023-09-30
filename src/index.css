@@ -1,0 +1,13 @@
+body {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  background: url("./assets/img/zagorwallpaper.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+}

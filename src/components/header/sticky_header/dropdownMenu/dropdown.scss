@@ -1,0 +1,56 @@
+.menu-items {
+  position: absolute;
+  top: 90%;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 0.5px #848484;
+  padding: 12px 20px;
+  margin-top: 10px;
+  width: 15rem;
+  animation: fadeIn 0.1s ease-in-out;
+  z-index: 500;
+  &:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    left: 0;
+    height: 15px;
+  }
+
+  .main-ul {
+    padding: 0;
+    list-style: none;
+
+    li {
+      a {
+        color: #848484;
+        font-size: 1rem;
+        font-weight: 400;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px 0;
+        &:hover {
+          color: #ff6900;
+          transition: 0.1s;
+        }
+
+        i {
+          font-size: 0.7rem;
+          color: #52525273;
+        }
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(2rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

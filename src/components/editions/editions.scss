@@ -1,0 +1,130 @@
+.edition-comics-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  .edition-comics-pic-div {
+    max-width: 260px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .edition-comics-title {
+    h3 {
+      line-height: 0.8;
+    }
+    a {
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+      color: #333333;
+      transition: 0.2s;
+      &:hover {
+        color: #a0a0a0;
+        transition: 0.2s;
+      }
+    }
+  }
+}
+
+/*****************************PAGINATION********************************************/
+.editions-wrapper {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  // height: auto;
+  // height: 1410px;
+  padding: 35px 30px;
+}
+.edition-pagination-holder {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 0;
+}
+
+.ed-paginationBttns {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.ed-paginationBttns li {
+  margin: 0 2px 0 0;
+}
+
+.ed-paginationLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #242424;
+}
+
+.ed-paginationLink:hover {
+  background-color: #efefef;
+  color: #242424;
+}
+
+.ed-previousBttns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #242424;
+}
+.ed-previousBttns:hover {
+  background-color: #efefef;
+  color: #242424;
+}
+.ed-nextBttns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #242424;
+}
+
+.ed-nextBttns:hover {
+  background-color: #efefef;
+  color: #242424;
+}
+.ed-paginationLinkDisabled {
+  color: #bfbfbf;
+  background-color: #ffffff00;
+}
+
+.ed-paginationLinkDisabled:hover {
+  color: #bfbfbf;
+  background-color: #ffffff00;
+}
+
+.ed-paginationActive {
+  background-color: #f58634;
+  color: #ffffff;
+  pointer-events: none;
+}
+
+.ed-paginationActive .ed-paginationLink {
+  color: #ffffff;
+}
+
+/***********************************PAGINATION END**************************************************/
+
+@media screen and (max-width: 768px) {
+  .edition-comics-pic-div {
+    max-width: 100%;
+  }
+}

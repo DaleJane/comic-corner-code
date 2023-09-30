@@ -1,0 +1,14 @@
+@import "../../../../../styleBase/styleBase.scss";
+
+.deep-list-komandantmark {
+  @include deep-menu(53%);
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(2rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

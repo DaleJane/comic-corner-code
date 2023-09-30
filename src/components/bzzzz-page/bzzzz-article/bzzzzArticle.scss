@@ -1,0 +1,143 @@
+.bz-article {
+  font-family: "Raleway", sans-serif;
+  height: auto;
+  background-color: #ffffff;
+  .bzzz-page-div {
+    height: 130px;
+    background-color: #286b4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .bzzz-div-img-holder {
+      text-align: center;
+      height: auto;
+      img {
+        width: 80%;
+      }
+    }
+  }
+
+  .bz-article-wrapper {
+    padding: 30px 30px 30px 30px;
+    .bz-article-pic {
+      text-align: center;
+      h1 {
+        font-size: 32px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 14px;
+      }
+      img {
+        width: 100%;
+      }
+    }
+
+    .article-text {
+      font-size: 15px;
+      color: #777777;
+      margin: 20px 0 0 0;
+    }
+
+    .article-mix {
+      display: flex;
+      justify-content: space-between;
+      margin: 30px 0 30px 0;
+
+      .article-mix-pic {
+        width: 40%;
+        margin: 0 30px 0 0;
+        img {
+          width: 100%;
+        }
+      }
+      .article-mix-text {
+        width: 60%;
+        font-size: 15px;
+        color: #777777;
+      }
+    }
+
+    .sada {
+      font-size: 15px;
+      color: #777777;
+      margin: 30px 0 0 0;
+    }
+    .bz-article-separator {
+      padding: 0 0 0 0;
+      width: 100%;
+      height: 20px;
+      border-top: 2px solid #0a0a0a1f;
+    }
+
+    .bz-article-comics {
+      padding: 20px 0 50px 0;
+
+      .bz-related-holder {
+        text-align: center;
+
+        h3 {
+          font-size: 14px;
+          line-height: 1.5;
+          a {
+            text-decoration: none;
+            font-weight: 700;
+            color: #333;
+            transition: 0.2s;
+            &:hover {
+              color: #a0a0a0;
+              transition: 0.2s;
+            }
+          }
+        }
+
+        .bz-related-comic {
+          margin: 0 0 10px 0;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+/**************************RESPONSIVE*************************************************/
+@media screen and (max-width: 575px) {
+  .bz-article-pic h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .article-mix {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bz-article .bz-article-wrapper .article-mix {
+    .article-mix-pic {
+      width: 100%;
+      margin: 0;
+    }
+
+    .article-mix-text {
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+  .bz-article-pic h1 {
+    font-size: 24px;
+  }
+
+  .bzzz-page-div {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .bz-article-pic h1 {
+    font-size: 28px;
+  }
+}
+
+/**************************RESPONSIVE*************************************************/

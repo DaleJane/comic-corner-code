@@ -1,0 +1,1207 @@
+.bzzz-wrapper {
+  font-family: "Raleway", sans-serif;
+  .bzzz-div {
+    height: 200px;
+    background-color: #286b4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /////////////////////////////////////ZLATNA SERIJA//////////////////////////////////////////////////////
+  .zlatna-serija-div {
+    height: 755px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 75px 50px 35px;
+    .zs-first {
+      height: 470px;
+      width: 50%;
+      margin: 35px 0 0 0;
+      img {
+        width: 100%;
+      }
+    }
+
+    .zs-second {
+      width: 45%;
+
+      .zs-logo {
+        width: 100%;
+        text-align: center;
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .zs-text {
+      margin: 0 0 0 45px;
+      a {
+        text-decoration: none;
+      }
+      .zs-serial-number {
+        margin: 0 0 0 15px;
+
+        h1 {
+          color: #8ecbde33;
+          font-size: 80px;
+          margin: 0 0 -30px -50px;
+        }
+      }
+
+      h4 {
+        font-size: 39px;
+        font-weight: 700;
+        color: #333333;
+      }
+
+      h2 {
+        font-size: 39px;
+        font-weight: 300;
+        color: #333333;
+      }
+
+      p {
+        color: #777777;
+        font-size: 14px;
+      }
+
+      .zs-gray {
+        display: inline-block;
+        margin: 0 15px 10px 0;
+        a {
+          padding: 10px 20px;
+          border: 2px solid #e9e9e9;
+          color: #333;
+          font-weight: 700;
+          border-radius: 35px;
+          font-size: 13px;
+          width: auto;
+          transition: 0.4s;
+          &:hover {
+            background-color: #e9e9e9;
+            color: #333;
+            transition: 0.4s;
+          }
+        }
+      }
+
+      .zs-orange {
+        display: inline-block;
+        margin: 15px 15px 10px 0;
+
+        a {
+          padding: 10px 20px;
+          background-color: #f58634;
+          color: #ffffff;
+          font-weight: 700;
+          border-radius: 35px;
+          font-size: 13px;
+          width: auto;
+          transition: 0.4s;
+          &:hover {
+            background-color: #e07020;
+            color: #ffffff;
+            transition: 0.4s;
+          }
+        }
+      }
+    }
+  }
+  /////////////////////////////////////DILAN DOG//////////////////////////////////////////////////////
+  .dilan-dog-div {
+    height: 530px;
+    background-color: #000000;
+    display: flex;
+    font-size: 14px;
+    .dilan-dog-first {
+      width: 50%;
+      padding: 0 15px;
+
+      .dd-logo-div {
+        width: 100%;
+        text-align: right;
+        img {
+          margin: 45px 0 0 0;
+        }
+      }
+
+      .dilan-dog-info {
+        color: #ffffffcc;
+        text-align: right;
+        margin: 35px 0 0 0;
+        padding: 0 0 0 15px;
+        a {
+          text-decoration: none;
+        }
+
+        .dd-buttons {
+          margin: 35px 0 0 0;
+
+          .dd-gray {
+            display: inline-block;
+            margin: 0 15px 10px 0;
+            a {
+              padding: 10px 20px;
+              color: #333;
+              background-color: #e9e9e9;
+              font-weight: 500;
+              border-radius: 35px;
+              font-size: 13px;
+              width: auto;
+              transition: 0.4s;
+              &:hover {
+                background-color: #a5a5a5;
+                color: #333;
+                transition: 0.4s;
+              }
+            }
+          }
+
+          .dd-orange {
+            display: inline-block;
+            margin: 15px 15px 10px 0;
+            a {
+              padding: 10px 20px;
+              background-color: #f58634;
+              color: #ffffff;
+              font-weight: 500;
+              border-radius: 35px;
+              font-size: 13px;
+              width: auto;
+              transition: 0.4s;
+              &:hover {
+                background-color: #e07020;
+                color: #ffffff;
+                transition: 0.4s;
+              }
+            }
+          }
+        }
+      }
+    }
+    .dilan-dog-second {
+      width: 45%;
+
+      .dd-logo-wrapper {
+        margin: -30px 0 0 15px;
+      }
+    }
+  }
+
+  /////////////////////////////////////MEDJUVREME//////////////////////////////////////////////////////
+  .medjuvreme-div {
+    height: auto;
+    background-color: #ffffff;
+    padding: 0 35px 35px 35px;
+    display: flex;
+    .medjuvreme-first {
+      width: 35%;
+      margin: 20px 20px 20px 0;
+      img {
+        width: 100%;
+      }
+    }
+
+    .medjuvreme-second {
+      width: 65%;
+      margin: 100px 0 0 0;
+      p {
+        color: #a5a5a5;
+        font-size: 14px;
+      }
+
+      h4 {
+        font-size: 44px;
+        color: #242424;
+      }
+
+      .medjuvreme-info {
+        display: flex;
+        height: 270px;
+        width: 100%;
+        margin: 30px 0 0 0;
+
+        .medjuvreme-info-logo-wrapper {
+          display: flex;
+          .medjuvreme-img-div {
+            height: 245px;
+            padding: 0 0 0 20px;
+            img {
+              height: 100%;
+            }
+          }
+        }
+      }
+
+      .medj-buttons {
+        display: flex;
+        a {
+          text-decoration: none;
+          margin: 20px 0 0 0;
+        }
+
+        .medj-gray {
+          display: inline-block;
+          margin: 0 15px 10px 0;
+          a {
+            padding: 10px 20px;
+            border: 2px solid #e9e9e9;
+            color: #333;
+            font-weight: 700;
+            border-radius: 35px;
+            font-size: 13px;
+            width: auto;
+            transition: 0.4s;
+            &:hover {
+              background-color: #e9e9e9;
+              color: #333;
+              transition: 0.4s;
+            }
+          }
+        }
+
+        .medj-orange {
+          display: inline-block;
+          margin: 15px 15px 10px 0;
+          a {
+            padding: 10px 20px;
+            background-color: #f58634;
+            color: #ffffff;
+            font-weight: 700;
+            border-radius: 35px;
+            font-size: 13px;
+            width: auto;
+            transition: 0.4s;
+            &:hover {
+              background-color: #e07020;
+              color: #ffffff;
+              transition: 0.4s;
+            }
+          }
+        }
+      }
+    }
+  }
+  /////////////////////////////////////ODABRANE PRICE//////////////////////////////////////////////////////
+  .odabrane-price-div {
+    height: 530px;
+    padding: 0 15px;
+    background-color: #962130;
+    color: #ffffffcc;
+    font-size: 15px;
+    display: flex;
+    a {
+      text-decoration: none;
+    }
+    .od-first {
+      width: 45%;
+      text-align: right;
+
+      .od-logo img {
+        margin: 35px 0 40px 0;
+      }
+
+      .od-info {
+        padding: 0 0 0 25px;
+
+        .od-buttons {
+          margin: 20px 0 0 0;
+          .od-gray {
+            display: inline-block;
+            margin: 0 15px 10px 0;
+            a {
+              padding: 10px 20px;
+              color: #333;
+              background-color: #e9e9e9;
+              font-weight: 500;
+              border-radius: 35px;
+              font-size: 13px;
+              width: auto;
+              transition: 0.4s;
+              &:hover {
+                background-color: #a5a5a5;
+                color: #333;
+                transition: 0.4s;
+              }
+            }
+          }
+        }
+
+        .od-orange {
+          display: inline-block;
+          margin: 0 15px 10px 0;
+          a {
+            padding: 10px 20px;
+            background-color: #f58634;
+            color: #ffffff;
+            font-weight: 500;
+            border-radius: 35px;
+            font-size: 13px;
+            width: auto;
+            transition: 0.4s;
+            &:hover {
+              background-color: #e07020;
+              color: #ffffff;
+              transition: 0.4s;
+            }
+          }
+        }
+      }
+    }
+    .od-comic-wrapper {
+      padding: 6px;
+      background-color: #ffffff;
+      margin: -35px 0 0 30px;
+    }
+  }
+  /////////////////////////////////////OBOJENI PROGRAM//////////////////////////////////////////////////////
+  .obojeni-program-div {
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    .ob-first {
+      height: 490px;
+      width: 40%;
+      .obojeni-img-wrapper {
+        background-color: #ffffff;
+        padding: 6px;
+        margin: -35px 0 0 35px;
+        height: 490px;
+        width: 360px;
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+
+    .ob-second {
+      color: #777777;
+      font-size: 14px;
+      margin: 65px 0 0 30px;
+
+      .ob-logo-holder {
+        width: 100%;
+        img {
+          width: 90%;
+        }
+      }
+
+      .ob-program-text {
+        margin: 35px 0 40px 0;
+      }
+      .ob-buttons {
+        a {
+          text-decoration: none;
+        }
+
+        .ob-gray {
+          display: inline-block;
+          margin: 0 15px 25px 0;
+          a {
+            padding: 10px 20px;
+            border: 2px solid #e9e9e9;
+            color: #333;
+            font-weight: 700;
+            border-radius: 35px;
+            font-size: 13px;
+            width: auto;
+
+            transition: 0.4s;
+
+            &:hover {
+              background-color: #e9e9e9;
+              color: #333;
+              transition: 0.4s;
+            }
+          }
+        }
+
+        .ob-orange {
+          display: inline-block;
+          margin: 0 15px 10px 0;
+          a {
+            padding: 10px 20px;
+            background-color: #f58634;
+            color: #ffffff;
+            font-weight: 700;
+            border-radius: 35px;
+            font-size: 13px;
+            width: auto;
+
+            transition: 0.4s;
+            &:hover {
+              background-color: #e07020;
+              color: #ffffff;
+              transition: 0.4s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/**************************************************SSSSSTTTTTTTTAAAAAAAAARRRRRROOOOOOOOO******************************/
+// .bzzz-div {
+//   height: 200px;
+//   background-color: #286b4e;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+/****************************ZLATNA SERIJA **************************************/
+// .zlatna-serija-div {
+//   height: 755px;
+//   background-color: #ffffff;
+//   display: flex;
+//   justify-content: space-between;
+//   padding: 70px 75px 50px 35px;
+// }
+
+// .zs-first {
+//   height: 470px;
+//   width: 50%;
+//   margin: 35px 0 0 0;
+// }
+
+// .zs-first img {
+//   width: 100%;
+// }
+
+// .zs-logo {
+//   width: 100%;
+//   text-align: center;
+// }
+
+// .zs-logo img {
+//   width: 100%;
+// }
+
+// .zs-second {
+//   width: 45%;
+// }
+
+// .zs-serial-number {
+//   margin: 0 0 0 15px;
+// }
+
+// .zs-serial-number h1 {
+//   color: #8ecbde33;
+//   font-size: 80px;
+//   margin: 0 0 -30px -50px;
+// }
+
+// .zs-text h4 {
+//   font-size: 39px;
+//   font-weight: 700;
+//   color: #333333;
+// }
+
+// .zs-text h2 {
+//   font-size: 39px;
+//   font-weight: 300;
+//   color: #333333;
+// }
+
+// .zs-text p {
+//   color: #777777;
+//   font-size: 14px;
+// }
+
+// .zs-text {
+//   margin: 0 0 0 45px;
+// }
+
+// .zs-gray {
+//   display: inline-block;
+//   margin: 0 15px 10px 0;
+// }
+
+// .zs-gray a {
+//   padding: 10px 20px;
+//   border: 2px solid #e9e9e9;
+//   color: #333;
+//   font-weight: 700;
+//   border-radius: 35px;
+//   font-size: 13px;
+//   width: auto;
+
+//   transition: 0.4s;
+// }
+
+// .zs-gray a:hover {
+//   background-color: #e9e9e9;
+//   color: #333;
+//   transition: 0.4s;
+// }
+
+// .zs-orange {
+//   display: inline-block;
+//   margin: 15px 15px 10px 0;
+// }
+
+// .zs-orange a {
+//   padding: 10px 20px;
+//   background-color: #f58634;
+//   color: #ffffff;
+//   font-weight: 700;
+//   border-radius: 35px;
+//   font-size: 13px;
+//   width: auto;
+
+//   transition: 0.4s;
+// }
+
+// .zs-orange a:hover {
+//   background-color: #e07020;
+//   color: #ffffff;
+//   transition: 0.4s;
+// }
+
+// .zs-text a {
+//   text-decoration: none;
+// }
+
+/******************************************DILAN DOG************************************************/
+
+// .dilan-dog-div {
+//   height: 530px;
+//   background-color: #000000;
+//   display: flex;
+// }
+
+// .dilan-dog-first {
+//   width: 50%;
+//   padding: 0 15px;
+// }
+
+// .dd-logo-div {
+//   width: 100%;
+//   text-align: right;
+// }
+
+// .dd-logo-div img {
+//   margin: 45px 0 0 0;
+// }
+
+// .dilan-dog-info {
+//   color: #ffffffcc;
+//   text-align: right;
+//   margin: 35px 0 0 0;
+//   padding: 0 0 0 15px;
+// }
+
+// .dd-gray {
+//   display: inline-block;
+//   margin: 0 15px 10px 0;
+// }
+
+// .dd-gray a {
+//   padding: 10px 20px;
+//   color: #333;
+//   background-color: #e9e9e9;
+//   font-weight: 500;
+//   border-radius: 35px;
+//   font-size: 13px;
+//   width: auto;
+//   transition: 0.4s;
+// }
+
+// .dd-gray a:hover {
+//   background-color: #a5a5a5;
+//   color: #333;
+//   transition: 0.4s;
+// }
+
+// .dd-orange {
+//   display: inline-block;
+//   margin: 0 15px 10px 0;
+// }
+
+// .dd-orange a {
+//   padding: 10px 20px;
+//   background-color: #f58634;
+//   color: #ffffff;
+//   font-weight: 500;
+//   border-radius: 35px;
+//   font-size: 13px;
+//   width: auto;
+//   transition: 0.4s;
+// }
+
+// .dd-orange a:hover {
+//   background-color: #e07020;
+//   color: #ffffff;
+//   transition: 0.4s;
+// }
+
+// .dilan-dog-info a {
+//   text-decoration: none;
+// }
+
+// .dd-buttons {
+//   margin: 35px 0 0 0;
+// }
+
+// .dilan-dog-second {
+//   width: 45%;
+// }
+
+// .dd-logo-wrapper {
+//   margin: -30px 0 0 15px;
+// }
+
+/**********************MEDJUVREME************************************************/
+
+// .medjuvreme-div {
+//   height: auto;
+//   background-color: #ffffff;
+//   padding: 0 35px 35px 35px;
+//   display: flex;
+// }
+
+// .medjuvreme-first {
+//   width: 35%;
+//   margin: 20px 20px 20px 0;
+// }
+
+// .medjuvreme-first img {
+//   width: 100%;
+// }
+
+// .medjuvreme-second {
+//   width: 65%;
+//   margin: 100px 0 0 0;
+// }
+
+// .medjuvreme-div p {
+//   color: #a5a5a5;
+//   font-size: 14px;
+// }
+
+// .medjuvreme-second h4 {
+//   font-size: 44px;
+//   color: #242424;
+// }
+
+// .medjuvreme-info {
+//   display: flex;
+//   height: 270px;
+//   width: 100%;
+//   margin: 30px 0 0 0;
+// }
+
+// .medjuvreme-info-logo-wrapper {
+//   display: flex;
+// }
+
+// .medjuvreme-img-div {
+//   height: 245px;
+//   padding: 0 0 0 20px;
+// }
+
+// .medjuvreme-img-div img {
+//   height: 100%;
+// }
+
+// .medj-gray {
+//   display: inline-block;
+//   margin: 0 15px 10px 0;
+// }
+
+// .medj-gray a {
+//   padding: 10px 20px;
+//   border: 2px solid #e9e9e9;
+//   color: #333;
+//   font-weight: 700;
+//   border-radius: 35px;
+//   font-size: 13px;
+//   width: auto;
+
+//   transition: 0.4s;
+// }
+
+// .medj-gray a:hover {
+//   background-color: #e9e9e9;
+//   color: #333;
+//   transition: 0.4s;
+// }
+
+// .medj-orange {
+//   display: inline-block;
+//   margin: 0 15px 10px 0;
+// }
+
+// .medj-orange a {
+//   padding: 10px 20px;
+//   background-color: #f58634;
+//   color: #ffffff;
+//   font-weight: 700;
+//   border-radius: 35px;
+//   font-size: 13px;
+//   width: auto;
+//   transition: 0.4s;
+// }
+
+// .medj-orange a:hover {
+//   background-color: #e07020;
+//   color: #ffffff;
+//   transition: 0.4s;
+// }
+
+// .medj-buttons {
+//   display: flex;
+// }
+
+// .medj-buttons a {
+//   text-decoration: none;
+//   margin: 20px 0 0 0;
+// }
+
+/***********************ZAGOR ODABRANE PRICE ********************************************/
+
+// .odabrane-price-div {
+//   height: 530px;
+//   padding: 0 15px;
+//   background-color: #962130;
+//   color: #ffffffcc;
+//   font-size: 15px;
+//   display: flex;
+// }
+// .od-first {
+//   width: 45%;
+//   text-align: right;
+// }
+
+// .od-gray {
+//   display: inline-block;
+//   margin: 0 15px 10px 0;
+// }
+
+// .od-gray a {
+//   padding: 10px 20px;
+//   color: #333;
+//   background-color: #e9e9e9;
+//   font-weight: 500;
+//   border-radius: 35px;
+//   font-size: 13px;
+//   width: auto;
+//   transition: 0.4s;
+// }
+
+// .od-gray a:hover {
+//   background-color: #a5a5a5;
+//   color: #333;
+//   transition: 0.4s;
+// }
+
+// .od-orange {
+//   display: inline-block;
+//   margin: 0 15px 10px 0;
+// }
+
+// .od-orange a {
+//   padding: 10px 20px;
+//   background-color: #f58634;
+//   color: #ffffff;
+//   font-weight: 500;
+//   border-radius: 35px;
+//   font-size: 13px;
+//   width: auto;
+//   transition: 0.4s;
+// }
+
+// .od-orange a:hover {
+//   background-color: #e07020;
+//   color: #ffffff;
+//   transition: 0.4s;
+// }
+
+// .odabrane-price-div a {
+//   text-decoration: none;
+// }
+
+// .od-buttons {
+//   margin: 20px 0 0 0;
+// }
+
+// .od-logo img {
+//   margin: 35px 0 40px 0;
+// }
+
+// .od-info {
+//   padding: 0 0 0 25px;
+// }
+
+// .od-comic-wrapper {
+//   padding: 6px;
+//   background-color: #ffffff;
+//   margin: -35px 0 0 30px;
+// }
+/**************************OBOJENI PROGRAM***************************************/
+
+// .obojeni-program-div {
+//   height: auto;
+//   background-color: #ffffff;
+//   display: flex;
+// }
+
+// .ob-first {
+//   height: 490px;
+//   width: 40%;
+// }
+
+// .obojeni-img-wrapper {
+//   background-color: #ffffff;
+//   padding: 6px;
+//   margin: -35px 0 0 35px;
+//   height: 490px;
+//   width: 360px;
+// }
+
+// .obojeni-img-wrapper img {
+//   height: 100%;
+//   width: 100%;
+// }
+
+// .ob-second {
+//   color: #777777;
+//   font-size: 14px;
+//   margin: 65px 0 0 30px;
+// }
+
+// .ob-logo-holder {
+//   width: 100%;
+// }
+
+// .ob-logo-holder img {
+//   width: 90%;
+// }
+
+// .ob-gray {
+//   display: inline-block;
+//   margin: 0 15px 25px 0;
+// }
+
+// .ob-gray a {
+//   padding: 10px 20px;
+//   border: 2px solid #e9e9e9;
+//   color: #333;
+//   font-weight: 700;
+//   border-radius: 35px;
+//   font-size: 13px;
+//   width: auto;
+
+//   transition: 0.4s;
+// }
+
+// .ob-gray a:hover {
+//   background-color: #e9e9e9;
+//   color: #333;
+//   transition: 0.4s;
+// }
+
+// .ob-orange {
+//   display: inline-block;
+//   margin: 0 15px 10px 0;
+// }
+
+// .ob-orange a {
+//   padding: 10px 20px;
+//   background-color: #f58634;
+//   color: #ffffff;
+//   font-weight: 700;
+//   border-radius: 35px;
+//   font-size: 13px;
+//   width: auto;
+
+//   transition: 0.4s;
+// }
+
+// .ob-orange a:hover {
+//   background-color: #e07020;
+//   color: #ffffff;
+//   transition: 0.4s;
+// }
+
+// .ob-buttons a {
+//   text-decoration: none;
+// }
+
+// .ob-program-text {
+//   margin: 35px 0 40px 0;
+// }
+
+/**********************************RESPONSIVE*****************************************/
+
+@media screen and (max-width: 991px) {
+  .bzzz-wrapper {
+    .zlatna-serija-div {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 20px 20px 20px;
+      .zs-first {
+        height: auto;
+        width: 90%;
+        margin: 35px 0 0 0;
+      }
+      .zs-second {
+        width: 80%;
+        margin: 30px 0 30px 0;
+
+        .zs-logo {
+          width: 50%;
+        }
+      }
+    }
+
+    .dilan-dog-div {
+      height: auto;
+      flex-direction: column;
+      padding: 20px 30px 20px 20px;
+      .dilan-dog-first {
+        order: 2;
+        margin: 0 0 30px 0;
+        text-align: left;
+        .dd-logo-div {
+          text-align: right;
+        }
+        .dilan-dog-info {
+          text-align: left;
+        }
+      }
+
+      .dilan-dog-second {
+        order: 1;
+        text-align: right;
+        width: 100%;
+        .dd-logo-wrapper {
+          margin: -40px 0 0 15px;
+        }
+      }
+    }
+    .medjuvreme-div {
+      .medjuvreme-first {
+        width: 40%;
+      }
+    }
+
+    .odabrane-price-div {
+      justify-content: space-between;
+      .od-first {
+        width: 60%;
+      }
+
+      .od-second {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        .od-comic-wrapper {
+          width: 90%;
+          margin: 0 0 0 0;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .obojeni-program-div {
+      padding: 0 25px;
+      .ob-first {
+        width: 60%;
+      }
+      .ob-second {
+        width: 40%;
+      }
+    }
+  }
+}
+////////////////////////////////////////////////////////////////////////////////
+@media screen and (max-width: 767px) {
+  .bzzz-wrapper {
+    .medjuvreme-div {
+      height: auto;
+      flex-direction: column;
+      padding: 0 35px 55px 35px;
+      .medjuvreme-first {
+        width: 60%;
+      }
+
+      .medjuvreme-second {
+        width: 100%;
+        margin: 20px 0 0 0;
+        .medjuvreme-info {
+          height: auto;
+        }
+        .medj-buttons {
+          justify-content: space-between;
+          margin: 30px 0 0 0;
+          width: 100%;
+          .medj-gray {
+            width: 40%;
+          }
+          .medjuvreme-img-div {
+            text-align: center;
+            width: 50%;
+            img {
+              width: 60%;
+            }
+          }
+        }
+      }
+    }
+
+    .odabrane-price-div {
+      flex-direction: column;
+      height: auto;
+      padding: 0 25px 50px 25px;
+      .od-first {
+        order: 2;
+        width: 100%;
+        .od-logo {
+          text-align: right;
+          img {
+            margin: 35px 0 40px 0;
+          }
+        }
+        .od-info {
+          text-align: left;
+        }
+      }
+      .od-second {
+        order: 1;
+        width: 100%;
+        justify-content: end;
+        .od-comic-wrapper {
+          width: 50%;
+          margin: -35px 0 0 0;
+          flex-direction: column;
+          // padding: 0 25px 25px 35px;
+          img {
+            height: 100%;
+          }
+        }
+      }
+    }
+
+    .obojeni-program-div {
+      flex-direction: column;
+      padding: 0 25px 25px 35px;
+      .obojeni-img-wrapper {
+        margin: -35px 0 0 0;
+      }
+
+      .ob-second {
+        width: 100%;
+        margin: 20px 0 0 0;
+        .ob-logo-holder {
+          width: 375px;
+        }
+      }
+    }
+
+    .bzzz-div {
+      height: auto;
+      .bzzz-div-img-holder {
+        width: 40%;
+        margin: 25px;
+        img {
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////
+@media screen and (max-width: 575px) {
+  .bzzz-wrapper .zlatna-serija-div .zs-text .zs-gray {
+    margin: 15px 15px 10px 0;
+  }
+  .bzzz-wrapper .zlatna-serija-div .zs-second {
+    width: 100%;
+  }
+
+  .bzzz-wrapper .dilan-dog-div .dilan-dog-first {
+    width: 100%;
+  }
+
+  .dd-logo-wrapper img {
+    width: 100%;
+  }
+
+  .dd-logo-div img {
+    width: 100%;
+  }
+
+  .od-logo img {
+    width: 60%;
+  }
+
+  .bzzz-wrapper .odabrane-price-div .od-first .od-info .od-orange {
+    display: inline-block;
+    margin: 10px 15px 10px 0;
+  }
+  // .od-orange {
+  //   margin: 10px 15px 10px 0;
+  // }
+  .bzzz-wrapper .odabrane-price-div .od-second .od-comic-wrapper {
+    padding: 0 6px 6px 6px;
+  }
+
+  .bzzz-wrapper .obojeni-program-div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bzzz-wrapper .obojeni-program-div {
+    padding: 0 25px 25px 25px;
+    .ob-first {
+      width: 100%;
+      height: auto;
+      .obojeni-img-wrapper {
+        width: auto;
+        height: auto;
+        margin: -35px 0 0 0;
+      }
+    }
+    .ob-second {
+      .ob-logo-holder {
+        width: 100%;
+      }
+    }
+  }
+  .bzzz-wrapper .medjuvreme-div .medjuvreme-first {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+
+  .medjuvreme-img-div img {
+    width: 70%;
+  }
+  .medj-orange {
+    margin: 10px 15px 10px 0;
+  }
+
+  .bzzz-wrapper
+    .medjuvreme-div
+    .medjuvreme-second
+    .medj-buttons
+    .medj-orange
+    a {
+    display: inline-flex;
+    text-align: center;
+    margin: 0;
+  }
+  .zs-gray {
+    margin: 10px 15px 10px 0;
+  }
+}

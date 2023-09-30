@@ -1,0 +1,222 @@
+@import "../../styleBase/styleBase.scss";
+
+#first {
+  .mySwiper {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 572px;
+    .omotac-slike {
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+
+      .text {
+        width: 400px;
+        height: auto;
+        background-color: #0000008c;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        padding: 0 0 20px 20px;
+        font-family: "Raleway", sans-serif;
+        h1 {
+          font-size: 45px;
+          color: #ffffff;
+          font-weight: 700;
+
+          margin: 0 0 20px 0;
+        }
+        h4 {
+          font-size: 24px;
+          font-weight: 300;
+          color: #ffffff;
+
+          margin: 20px 0 20px 0;
+        }
+
+        .buttons {
+          display: flex;
+
+          .button-one-circle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 120px;
+            height: 45px;
+            border: 2px solid #a8a8a8;
+            border-radius: 25px;
+            transition: 1s;
+            &:hover {
+              color: #ffffff;
+              border: 2px solid #ffffff;
+              transition: 1s;
+            }
+            a {
+              color: #ffffff;
+              font-size: 13px;
+              font-weight: 700;
+              text-decoration: none;
+              padding: 11px 22px;
+            }
+          }
+          .button-two-circle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 1s;
+            width: 200px;
+            height: 45px;
+            background-color: #f58634;
+            border-radius: 25px;
+            margin: 0 0 0 25px;
+            &:hover {
+              background-color: #c96925;
+              transition: 1s;
+            }
+            a {
+              color: #ffffff;
+              font-size: 13px;
+              font-weight: 700;
+              text-decoration: none;
+              padding: 11px 22px;
+              &:hover {
+                color: #ffffff;
+                transition: 1s;
+              }
+            }
+          }
+        }
+      }
+
+      .button-one {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 45px;
+        background-color: #f58634;
+        &:hover {
+          background-color: #c96925;
+          transition: 1s;
+          color: #ffffff;
+        }
+        a {
+          color: #ffffff;
+          font-size: 13px;
+          font-weight: 700;
+          text-decoration: none;
+          padding: 11px 22px;
+        }
+      }
+
+      .button-two {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 1s;
+        width: 200px;
+        height: 45px;
+        border: 2px solid #a8a8a8;
+        margin: 0 0 0 25px;
+        &:hover {
+          border: 2px solid #ffffff;
+          transition: 1s;
+          color: #ffffff;
+        }
+        a {
+          color: #ffffff;
+          font-size: 13px;
+          font-weight: 700;
+          text-decoration: none;
+          padding: 11px 22px;
+        }
+      }
+    }
+
+    .text-right {
+      width: 400px;
+      height: auto;
+      background-color: #0000008c;
+      position: absolute;
+      top: 50%;
+      right: 10%;
+      padding: 0 0 20px 20px;
+      font-family: "Raleway", sans-serif;
+      h1 {
+        font-size: 45px;
+        color: $clean-white;
+        font-weight: 700;
+        margin: 0 0 20px 0;
+      }
+      h4 {
+        font-size: 24px;
+        font-weight: 300;
+        color: $clean-white;
+        margin: 20px 0 20px 0;
+      }
+    }
+  }
+}
+
+:root {
+  --swiper-theme-color: #c4c4c4cc !important;
+}
+
+#first .swiper-button-next {
+  color: #ffffff !important;
+  transition: 0.3s !important;
+}
+
+#first .swiper-button-next:hover {
+  color: #c4c4c4cc !important;
+}
+
+#first .swiper-button-prev {
+  color: #ffffff !important;
+  transition: 0.3s !important;
+}
+
+#first .swiper-button-prev:hover {
+  color: #c4c4c4cc !important;
+}
+
+:root {
+  --swiper-navigation-size: 2rem !important;
+}
+
+@media screen and (max-width: 575px) {
+  #first .mySwiper .omotac-slike .text {
+    width: 300px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5490196078);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    padding: 0 0 20px 20px;
+    font-family: "Raleway", sans-serif;
+
+    h4 {
+      font-size: 22px;
+    }
+
+    h1 {
+      font-size: 22px;
+    }
+
+    .buttons {
+      display: block;
+
+      .button-two-circle {
+        margin: 10px 0 0 0;
+      }
+
+      .button-two {
+        margin: 10px 0 0 0;
+      }
+    }
+  }
+
+  #first .mySwiper .text-right {
+    width: 300px;
+  }
+}

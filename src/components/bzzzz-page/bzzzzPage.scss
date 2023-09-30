@@ -1,0 +1,233 @@
+.bz-wrapper {
+  padding: 0 40px 0 40px;
+  margin: 50px 0 0 0;
+  .bz-content-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: max-content;
+    &:hover {
+      .bz-text-holder {
+        box-shadow: 0 0 14px #40404073;
+        transition: box-shadow 0.6s ease;
+      }
+
+      .bz-pic-holder img {
+        transform: scale(1.1);
+        transition: 0.6s;
+      }
+
+      .bz-pic-holder .layer-sec::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #00000080;
+        opacity: 1;
+        transition: opacity 0.7s ease;
+      }
+    }
+    .bz-pic-holder {
+      max-width: 50%;
+      transition: 0.6s;
+      overflow: hidden;
+      .layer-sec {
+        position: relative;
+      }
+      .layer {
+        position: relative;
+        img {
+          width: 100%;
+          height: 100%;
+          transition: 0.6s;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: #00000080;
+          opacity: 0;
+          transition: opacity 0.7s ease;
+        }
+      }
+    }
+
+    .bz-text-holder {
+      max-width: 50%;
+      padding: 25px;
+      font-size: 14px;
+      color: #777777;
+
+      box-shadow: 0 0 4px #0000001f;
+      transition: box-shadow 0.6s ease;
+
+      a {
+        text-decoration: none;
+        font-size: 26px;
+        font-weight: 700;
+        color: #333333;
+        transition: 0.3s;
+        &:hover {
+          color: #777777;
+          transition: 0.3s;
+        }
+      }
+
+      .autor {
+        margin: 0 0 8px 0;
+        .span-autor {
+          color: #bbbbbb;
+        }
+      }
+
+      #nastavi {
+        margin: 0;
+        a {
+          color: #f58634;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+.bz {
+  height: auto;
+  background-color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+
+.bzzz-page-div {
+  height: 130px;
+  background-color: #286b4e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bzzz-page-div-closed {
+  visibility: hidden;
+  height: 130px;
+}
+
+.bzzz-div-img-holder {
+  text-align: center;
+  height: auto;
+}
+
+.bzzz-div-img-holder img {
+  width: 80%;
+}
+
+/************************************************  PAGINATION STYLE START ********************************************************/
+
+.bz-map-div {
+  padding: 0 0 50px 0;
+}
+
+.pagination-holder {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 0;
+}
+
+.paginationBttns {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns li {
+  margin: 0 2px 0 0;
+}
+
+.paginationLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #242424;
+}
+
+.paginationLink:hover {
+  background-color: #efefef;
+  color: #242424;
+}
+
+.previousBttns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #242424;
+}
+.previousBttns:hover {
+  background-color: #efefef;
+  color: #242424;
+}
+.nextBttns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #242424;
+}
+
+.nextBttns:hover {
+  background-color: #efefef;
+  color: #242424;
+}
+.paginationLinkDisabled {
+  color: #bfbfbf;
+  background-color: #ffffff00;
+}
+
+.paginationLinkDisabled:hover {
+  color: #bfbfbf;
+  background-color: #ffffff00;
+}
+
+.paginationActive {
+  background-color: #f58634;
+  color: #ffffff;
+  pointer-events: none;
+}
+
+.paginationActive .paginationLink {
+  color: #ffffff;
+}
+
+/************************************************  PAGINATION STYLE END ********************************************************/
+
+/*****************************************************************RESPONSIVE*********************************/
+@media screen and (max-width: 767px) {
+  .bz-wrapper .bz-content-holder {
+    flex-direction: column;
+    .bz-pic-holder,
+    .bz-text-holder {
+      max-width: 100%;
+    }
+  }
+  .bzzz-div-img-holder img {
+    width: 60%;
+  }
+}

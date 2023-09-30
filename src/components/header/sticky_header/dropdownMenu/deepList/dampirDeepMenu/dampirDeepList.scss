@@ -1,0 +1,14 @@
+@import "../../../../../styleBase/styleBase.scss";
+
+.deep-list-dampir {
+  @include deep-menu(31%);
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(2rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

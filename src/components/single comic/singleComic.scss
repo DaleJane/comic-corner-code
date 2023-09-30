@@ -1,0 +1,255 @@
+.single-comic-wrapper {
+  font-family: "Raleway", sans-serif;
+  background-color: #ffffff;
+  padding: 50px 30px 50px 30px;
+  color: #333333;
+  .sc-holder {
+    display: flex;
+    .single-comic-gallery {
+      width: 50%;
+      #mySwiper-comics {
+        width: 100%;
+        #main-pic {
+          margin: 0;
+          .sc-pic {
+            text-align: center;
+            cursor: grab;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      #mySwiper-thumb {
+        #main-thumb {
+          transition: 0.5s;
+          &:hover {
+            transition: 0.5s;
+            opacity: 0.5;
+          }
+          .sc-thumb {
+            max-width: 100%;
+            cursor: pointer;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    .single-comic-text {
+      width: 50%;
+      padding: 40px 0 20px 30px;
+      position: relative;
+      .sc-text-absolute {
+        position: absolute;
+        bottom: 40px;
+      }
+      .sc-text-fixed {
+        position: fixed;
+        top: 250px;
+        max-width: 540px;
+        margin-right: 30px;
+      }
+
+      h1 {
+        font-size: 34px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 14px;
+        color: #777777;
+      }
+
+      .sc-text-description-holder {
+        border-bottom: 1px solid #0000001b;
+        padding: 0 0 15px 0;
+        .sc-separator {
+          padding: 0 0 0 0;
+          width: 100%;
+          border-top: 2px solid #0a0a0a1f;
+        }
+
+        .opis {
+          display: flex;
+          justify-content: space-between;
+          padding: 15px 0 0 0;
+          transition: 0.3s;
+          cursor: pointer;
+          &:hover {
+            .sc-opis-span {
+              color: #f58634;
+              transition: 0.3s;
+            }
+          }
+
+          .sc-opis-span {
+            transition: 0.3s;
+          }
+          .sc-opis-span-active {
+            color: #f58634;
+            transition: 0.3s;
+          }
+
+          .sc-arrow-rotate-close {
+            transform: rotate(-180deg);
+            transition: 0.5s;
+          }
+          .sc-arrow-rotate-open {
+            transform: rotate(0deg);
+            transition: 0.5s;
+          }
+          .sc-arrow {
+            color: #bbb;
+          }
+        }
+
+        .scroll-wrapper {
+          .sc-opis {
+            height: 200px;
+            margin: 15px 0 0 0;
+            overflow-y: scroll;
+            transition: 0.5s;
+            padding: 0 10px 0 0;
+          }
+
+          .sc-opis-closed {
+            height: 0px;
+            overflow-y: hidden;
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+  }
+
+  .related-products {
+    color: #242424;
+    font-size: 22px;
+    margin: 40px 0 0 0;
+    .related-products-title {
+      position: relative;
+      padding: 0 0 10px 0;
+      margin: 0 0 20px 0;
+      font-size: 22px;
+      color: #242424;
+      &:before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 40px;
+        height: 2px;
+        background-color: #f58634;
+      }
+    }
+    .related-center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .related-products-comics {
+        max-width: 260px;
+        text-align: center;
+        img {
+          width: 100%;
+        }
+        h3 {
+          font-size: 14px;
+        }
+        .related-comic-heading {
+          text-decoration: none;
+          color: #333333;
+          font-weight: 700;
+          transition: 0.2s;
+          line-height: 1.5;
+          &:hover {
+            color: #a0a0a0;
+            transition: 0.2s;
+          }
+        }
+        .related-pic-div {
+          margin: 0 0 10px 0;
+        }
+      }
+    }
+  }
+}
+
+/////////////////////////////////////////////////////////////
+
+.swiper-slide-thumb-active {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+/************************SCROLLBAR start*******************************/
+
+#scroll::-webkit-scrollbar {
+  width: 5px;
+  background-color: #0000000d;
+}
+
+#scroll::-webkit-scrollbar-thumb {
+  background: #0000001f;
+}
+/************************SCROLLBAR  end*******************************/
+
+/************************* RESPONSIVE ************************************************/
+@media screen and (max-width: 576px) {
+  .single-comic-wrapper .sc-holder .single-comic-text .sc-text-absolute {
+    font-size: 20px;
+  }
+  .single-comic-wrapper .sc-holder .single-comic-text .sc-text-fixed {
+    font-size: 20px;
+  }
+}
+/////////////////////////////////////////////////////////////////////////////////////////
+@media screen and (max-width: 768px) {
+  .single-comic-wrapper {
+    .sc-holder {
+      flex-direction: column;
+      .single-comic-gallery {
+        width: 100%;
+      }
+      .single-comic-text {
+        padding: 40px 0 30px 0;
+        width: 100%;
+      }
+    }
+
+    .related-products-preview {
+      overflow-x: auto;
+    }
+    .related-products-preview .row {
+      flex-wrap: nowrap;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////////
+
+@media screen and (max-width: 1024px) {
+  .single-comic-wrapper {
+    .sc-holder {
+      .single-comic-text {
+        .sc-text-absolute {
+          position: static;
+        }
+        .sc-text-fixed {
+          position: static;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .single-comic-wrapper .related-products .related-products-title {
+    font-size: 20px;
+  }
+}
+
+/////////////////////////////////////////////////////////////////

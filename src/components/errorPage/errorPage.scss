@@ -1,0 +1,22 @@
+.error-div {
+  font-family: "Raleway", sans-serif;
+  height: 100vh;
+  background-color: #f58634;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 50px;
+  }
+  a {
+    font-size: 80px;
+    color: #ffffff;
+    transition: 0.4s;
+    &:hover {
+      color: #000000;
+      transition: 0.4s;
+    }
+  }
+}
