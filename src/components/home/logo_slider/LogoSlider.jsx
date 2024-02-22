@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 // import required modules
-import { Pagination, Navigation } from "swiper/modules";
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import { useDispatch } from "react-redux";
 import {
   filterHero,
@@ -40,31 +40,22 @@ export default function LogoSlider() {
       <Swiper
         breakpoints={{
           200: {
-            // width: 576,
             slidesPerView: 2,
           },
           600: {
-            // width: 576,
             slidesPerView: 3,
           },
           768: {
-            // width: 768,
             slidesPerView: 4,
           },
           1024: {
-            // width: 768,
             slidesPerView: 6,
           },
         }}
-        // grabCursor={true}
         loop={true}
-        // slidesPerView={6}
         spaceBetween={0}
-        // pagination={{
-        //   clickable: true,
-        // }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>

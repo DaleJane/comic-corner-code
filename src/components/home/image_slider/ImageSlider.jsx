@@ -37,10 +37,9 @@ function ImageSlider() {
         // touchEventsTarget={container}
         grabCursor={true}
         centeredSlides={true}
-        // autoplay={{
-        //   delay: 7000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 7000,
+        }}
         loop={true}
         pagination={{
           clickable: true,
